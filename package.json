@@ -1,0 +1,19 @@
+{
+  "name": "@meridian/build-support",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Shared formatting primitives for release tooling",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node -e \"require('./index.node').prepareFormatMetadata()\""
+  },
+  "files": [
+    "index.js",
+    "index.node",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
