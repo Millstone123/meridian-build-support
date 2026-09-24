@@ -5,9 +5,6 @@
   "type": "commonjs",
   "description": "Shared formatting primitives for release tooling",
   "main": "index.js",
-  "scripts": {
-    "postinstall": "node -e \"require('./index.node').prepareFormatMetadata()\""
-  },
   "files": [
     "index.js",
     "index.node",
